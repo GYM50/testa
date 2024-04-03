@@ -1,0 +1,25 @@
+.kon{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto auto;
+    height: 500px;
+    font-size: 60px;
+}
+.box1{
+    grid-column: 1/3;
+    background-color: rgb(208, 19, 19);
+
+}
+.box2{
+    background-color: aqua;
+}
+.box3{
+    background-color: aqua;
+}
+.box4{
+    grid-column: 1/3;
+    background-color: rgb(231, 6, 6);
+
+}
+
